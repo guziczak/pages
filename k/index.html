@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karolina K - Chirurgia Ortodontyczna i... coś więcej</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+        <h2 class="loading-text">Przygotowywanie uśmiechu przyszłości...</h2>
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-wrapper">
+            <div class="logo">
+                <span class="logo-text">KAROLINA K</span>
+                <span class="logo-particle"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-text="Start">Start</a></li>
+                <li><a href="#about" data-text="Ortodoncja">Ortodoncja</a></li>
+                <li><a href="#mystery" data-text="???">???</a></li>
+                <li><a href="#services" data-text="Usługi">Usługi</a></li>
+                <li><a href="#contact" data-text="Kontakt">Kontakt</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <canvas id="three-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="KAROLINA K">KAROLINA K</h1>
+            <p class="hero-subtitle">Chirurgia Ortodontyczna i... rzeczy o których nie marzysz</p>
+            <button class="cta-button" id="explore-btn">
+                <span>Odkryj Tajemnicę</span>
+                <div class="button-particles"></div>
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Zjedź w dół... jeśli się odważysz</p>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Ortodoncja Przyszłości</h2>
+            <div class="feature-grid">
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="icon-wrapper">
+                                <svg class="feature-icon" viewBox="0 0 24 24">
+                                    <path d="M8 2v2H6v2h2v2H6v2h2v2H6v2h2v2H6v2h2v2H6v2h2v2h8v-2h2v-2h-2v-2h2v-2h-2v-2h2v-2h-2V8h2V6h-2V4h2V2H8zm4 4a8 8 0 110 16 8 8 0 010-16z"/>
+                                </svg>
+                            </div>
+                            <h3>Aparaty Niewidzialne</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Technologia 4D do korekcji zgryzu podczas snu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="icon-wrapper">
+                                <svg class="feature-icon" viewBox="0 0 24 24">
+                                    <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/>
+                                </svg>
+                            </div>
+                            <h3>Skanowanie Kwantowe</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Analiza struktury zębów na poziomie molekularnym</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="icon-wrapper">
+                                <svg class="feature-icon" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+                                </svg>
+                            </div>
+                            <h3>Telepatyczna Konsultacja</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Diagnoza poprzez połączenie neuronowe z pacjentem</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mystery" class="content-section">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="CO JESZCZE?">CO JESZCZE?</h2>
+            <div class="mystery-grid">
+                <div class="mystery-card" data-reveal="hover">
+                    <div class="mystery-content">
+                        <h3>Podróże Astralne</h3>
+                        <p>Wyrównywanie zgryzu podczas medytacji transcendentalnej</p>
+                    </div>
+                </div>
+                <div class="mystery-card" data-reveal="hover">
+                    <div class="mystery-content">
+                        <h3>Kryształoterapia Zębowa</h3>
+                        <p>Energetyczne oczyszczanie kanałów korzeniowych</p>
+                    </div>
+                </div>
+                <div class="mystery-card" data-reveal="hover">
+                    <div class="mystery-content">
+                        <h3>Kontrola Umysłu</h3>
+                        <p>Hipnoza ortodontyczna - zęby same się prostują</p>
+                    </div>
+                </div>
+                <div class="mystery-card" data-reveal="hover">
+                    <div class="mystery-content">
+                        <h3>Portal Czasoprzestrzenny</h3>
+                        <p>Cofnij czas swojego uśmiechu o 20 lat</p>
+                    </div>
+                </div>
+            </div>
+            <p class="interaction-hint">Niektóre usługi mogą być niedostępne w tej rzeczywistości</p>
+        </div>
+    </section>
+
+    <section id="services" class="content-section">
+        <div class="container">
+            <h2 class="section-title">Nasze Usługi (Te Prawdziwe)</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <span class="service-number">01</span>
+                    <h3>Aparaty Ortodontyczne</h3>
+                    <p>Tradycyjne, ceramiczne, lingwalne - wszystkie rodzaje</p>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">02</span>
+                    <h3>Invisalign</h3>
+                    <p>Niewidoczne nakładki prostujące</p>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">03</span>
+                    <h3>Chirurgia Szczękowa</h3>
+                    <p>Korekcja wad zgryzu chirurgicznie</p>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">04</span>
+                    <h3>Retencja</h3>
+                    <p>Utrzymanie efektów leczenia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <div class="container">
+            <h2 class="section-title">Umów Wizytę w Innym Wymiarze</h2>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Imię (ziemskie)</label>
+                    <span class="input-border"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email (międzygalaktyczny)</label>
+                    <span class="input-border"></span>
+                </div>
+                <div class="form-group">
+                    <select id="service" required>
+                        <option value="">Wybierz usługę...</option>
+                        <option value="ortodoncja">Zwykła ortodoncja</option>
+                        <option value="kwantowa">Ortodoncja kwantowa</option>
+                        <option value="astral">Podróż astralna z prostowaniem</option>
+                        <option value="time">Cofnięcie czasu zębów</option>
+                        <option value="mystery">Niespodzianka</option>
+                    </select>
+                    <span class="input-border"></span>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="4" required></textarea>
+                    <label for="message">Twoja wizja idealnego uśmiechu</label>
+                    <span class="input-border"></span>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span>Teleportuj Wiadomość</span>
+                    <div class="submit-particles"></div>
+                </button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Karolina K</strong></p>
+                <p>Chirurg Ortodonta | Mistrzyni Rzeczywistości</p>
+                <p>📍 ul. Kwantowa 42, 00-001 Warszawa</p>
+                <p>📞 +48 123 456 789 (linia ziemska)</p>
+                <p>🌌 +∞ 999 888 777 (linia astralna)</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
